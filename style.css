@@ -1,0 +1,228 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;900&family=Roboto&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Lato", sans-serif;
+    font-family: "Roboto", sans-serif;
+    color: black;
+}
+
+body {
+    background-attachment: #fff;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* ==== Header-Decoration ==== */
+
+.logo {
+    width: 220px;
+    height: 70px;
+}
+
+.header {
+    width: 100%;
+    height: 70px;
+    background-color: black;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1100px;
+    margin: 0 auto;
+}
+
+nav > .nav {
+    font-family: "Lato", sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-right: 24px;
+}
+
+nav > a:hover {
+    color: darkorange;
+}
+
+.fas {
+    padding: 10px 13px;
+    border-radius: 4px;
+    font-size: 1.5rem;
+    background-color: darkorange;
+    color: #fff;
+}
+
+.fas:hover {
+    background-color: rgba(255, 140, 0, 0.8);
+}
+
+/* ==== Second-Nav ==== */
+
+main {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.nav-text-container {
+    padding: 16px 16px;
+}
+
+.nav-text-container > h1 {
+    padding: 10px 0;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+li {
+    display: inline-block;
+    padding: 7px 10px;
+    list-style: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: black;
+}
+
+li:hover {
+    background-color: darkorange;
+}
+
+.media-container {
+    display: flex;
+    padding: 0 16px;
+    margin: 26px 0 16px;
+    border-bottom: 1px solid silver;
+}
+
+.text-container {
+    margin-left: 7px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.text-follow {
+    width: 80px;
+    padding: 3px;
+    margin-top: 6px;
+    text-align: center;
+    font-size: 0.8rem;
+    background-color: black;
+    color: #fff;
+}
+
+.text-follow:hover {
+    background-color: rgba(255, 140, 0);
+}
+
+.foto {
+    padding-bottom: 10px;
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+}
+
+.section {
+    width: 730px;
+}
+
+h2 {
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    padding: 24px 16px 0;
+    line-height: 2.3rem;
+}
+
+.section-text {
+    padding: 24px 16px 0;
+    margin: 15px 0;
+    line-height: 1.8rem;
+    font-size: 18px;
+}
+
+.motor {
+    padding: 24px 16px 0;
+    width: 730px;
+    height: 530px;
+}
+
+h3 {
+    padding: 20px 16px 0;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: "Lato", sans-serif;
+}
+
+.section > .section-text > .color-text {
+    color: orange;
+    background-color: rgb(255, 165, 0, 0.1);
+}
+
+.section > .section-text > .color-text:hover {
+    color: #fff;
+    background-color: darkorange;
+}
+
+.section-box {
+    display: flex;
+}
+
+.container-box {
+    width: 730px;
+    height: 220px;
+    border: 1px solid silver;
+}
+
+.container-box > h6 {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 0 0 0 16px;
+    height: 40px;
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: #323232;
+    color: #fff;
+}
+
+.image {
+    display: flex;
+    padding: 24px;
+}
+
+.zold-motor {
+    width: 230px;
+    cursor: pointer;
+}
+
+.zold-motor:hover {
+    border-bottom: 4px solid darkorange;
+}
+
+.container-box-text {
+    padding: 0 0 0 10px;
+    font-weight: bolder;
+    margin-left: 24px;
+    border-left: 4px solid darkorange;
+    line-height: 28px;
+    color: black;
+}
+
+.container-box-text:hover {
+    color: rgba(255, 140, 0, 0.8);
+}
+
+.container-box-p {
+    padding: 16px 24px 0;
+    font-size: 18px;
+    line-height: 26px;
+}
